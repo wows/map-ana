@@ -71,33 +71,62 @@ function level7Solution() {
 
 function level8Solution() {
   // USE BINARY IF STATEMENT
-
-  outputEl.innerHTML = "----";
+  if (row === 5 || column === 2) {
+    outputEl.innerHTML = "tree";
+  } else {
+    outputEl.innerHTML = "sand";
+  }
 }
 
 function level9Solution() {
   // USE BINARY IF STATEMENT
-  outputEl.innerHTML = "----";
+  if (row <= 5 && column <= 5) {
+    outputEl.innerHTML = "water";
+  } else {
+    outputEl.innerHTML = "sand";
+  }
 }
 
 function level10Solution() {
   // USE CHAINED IF STATEMENT
-  outputEl.innerHTML = "----";
+  if (column <= 1) {
+    outputEl.innerHTML = "Hills";
+  } else if (column <= 3) {
+    outputEl.innerHTML = "tree";
+  } else if (column <= 7) {
+    outputEl.innerHTML = "sand";
+  } else {
+    outputEl.innerHTML = "water";
+  }
 }
 
 function level11Solution() {
   // USE CHAINED IF STATEMENT
-  outputEl.innerHTML = "----";
+  if (column <= 5 && row <= 3) {
+    outputEl.innerHTML = "water";
+  } else if (column <= 11 && row <= 3) {
+    outputEl.innerHTML = "hills";
+  } else if (column <= 5 && row <= 7) {
+    outputEl.innerHTML = "sand";
+  } else {
+    outputEl.innerHTML = "tree";
+  }
 }
 
 function level12Solution() {
   // USE BINARY IF STATEMENT
-  outputEl.innerHTML = "----";
+  if ((column <= 5 && row <= 4) || (column >= 6 && row >= 5)) {
+    outputEl.innerHTML = "water";
+  } else {
+    outputEl.innerHTML = "sand";
+  }
 }
 
 function level13Solution() {
   // USE BINARY IF STATEMENT
-  outputEl.innerHTML = "----";
+ if () {
+  else
+ }
 }
 
 function level14Solution() {
