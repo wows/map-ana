@@ -124,9 +124,11 @@ function level12Solution() {
 
 function level13Solution() {
   // USE BINARY IF STATEMENT
- if () {
-  else
- }
+  if (row <=5 && row >= 1 && column  >=4 && column <=9) {
+    outputEl.innerHTML = "sand";
+  } else {
+    outputEl.innerHTML = "tree";
+  }
 }
 
 function level14Solution() {
